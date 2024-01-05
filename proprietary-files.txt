@@ -1,5 +1,10 @@
 # Unpinned blobs from missi_phoneext4_global-user 13 TP1A.220624.014 V14.0.5.0.TLSMIXM release-keys
 
+
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Audio
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
