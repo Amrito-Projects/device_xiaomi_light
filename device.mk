@@ -38,6 +38,18 @@ PRODUCT_PACKAGES += \
     update_engine_sideload \
     update_verifier
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6833 \
+    fstab.mt6833.ramdisk \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6833.rc \
+    init.mt6833.usb.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    ueventd.mtk.rc
+
 
 
 # Inherit the proprietary files
