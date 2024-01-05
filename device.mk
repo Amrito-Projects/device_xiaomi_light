@@ -11,5 +11,8 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/light/light-vendor.mk
