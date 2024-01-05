@@ -194,6 +194,16 @@ PRODUCT_PACKAGES += \
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-mediatek
+
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.mtkpower@1.2.vendor
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 
 # Media
 PRODUCT_PACKAGES += \
