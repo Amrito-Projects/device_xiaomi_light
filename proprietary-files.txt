@@ -429,6 +429,10 @@ vendor/lib64/libconnfem.so
 vendor/lib/libfile_op.so
 vendor/lib64/libfile_op.so
 
+# USB
+vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2
+vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
+vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
 
 # Trusted Execution Environment (TEE)
 vendor/bin/teei_daemon
