@@ -88,6 +88,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 TARGET_KERNEL_CONFIG := light_user_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/light
 
+# Display
+TARGET_SCREEN_DENSITY := 440
 
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
