@@ -486,3 +486,11 @@ vendor/lib64/libkeymaster41.so
 vendor/lib64/libkeymaster4_1support.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+
+# IR
+vendor/bin/hw/android.hardware.ir@1.0-service
+vendor/etc/init/android.hardware.ir@1.0-service.rc
+vendor/lib/hw/android.hardware.ir@1.0-impl.so
+vendor/lib/hw/consumerir.common.so
+vendor/lib64/hw/android.hardware.ir@1.0-impl.so
+vendor/lib64/hw/consumerir.common.so
