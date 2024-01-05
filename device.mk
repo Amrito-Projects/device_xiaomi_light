@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.mtk.rc
 
-
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/light/light-vendor.mk
