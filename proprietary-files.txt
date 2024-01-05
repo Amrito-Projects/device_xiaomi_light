@@ -693,3 +693,29 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.default.so
 
+# Thermal
+vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
+vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib/hw/android.hardware.thermal@2.0-impl.so
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
+
+# Thermal (Xiaomi)
+vendor/bin/mi_thermald
+
+# Thermal configs
+vendor/etc/thermal-arvr.conf
+vendor/etc/thermal-camera.conf
+vendor/etc/thermal-chg-only.conf
+vendor/etc/thermal-class0.conf
+vendor/etc/thermal-map.conf
+vendor/etc/thermal-mgame.conf
+vendor/etc/thermal-nolimits.conf
+vendor/etc/thermal-normal.conf
+vendor/etc/thermal-phone.conf
+vendor/etc/thermal-tgame.conf
+vendor/etc/thermal-video.conf
+vendor/etc/thermal-youtube.conf
+vendor/etc/thermald-devices.conf
+
