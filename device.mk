@@ -218,6 +218,15 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml
 
+# WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy.light \
+    hostapd \
+    wpa_supplicant
+
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0.vendor:64 \
+    android.hardware.tetheroffload.control@1.1.vendor:64
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/light/light-vendor.mk
