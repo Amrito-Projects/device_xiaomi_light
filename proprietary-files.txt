@@ -203,3 +203,15 @@ vendor/etc/bluetooth_offload_audio_policy_configuration.xml
 vendor/etc/default_volume_tables.xml
 vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
+
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
+vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
+vendor/lib/libbluetooth_mtk.so
+vendor/lib/libbt-vendor.so
+vendor/lib/libnvram.so
+vendor/lib/libnvram_sec.so
+vendor/lib64/libbluetooth_mtk.so
+vendor/lib64/libbt-vendor.so
+vendor/lib64/libnvram.so
+vendor/lib64/libnvram_sec.so
