@@ -679,3 +679,17 @@ vendor/firmware/soc2_2_ram_wifi_1_1_hdr.bin|3f936d875c797454c77b83b3da39739bbada
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1_1.bin|18dfcca431a72f8a26ca92fad6f3db60e8db62c1
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1a_1.bin|9fa98689eea3bd6ab91e7faf82ef9fb74b010de1
 
+# Gatekeeper
+lib/vendor.trustonic.tee@1.0.so
+lib/vendor.trustonic.tee@1.1.so
+lib64/vendor.trustonic.tee@1.0.so
+lib64/vendor.trustonic.tee@1.1.so
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib/hw/gatekeeper.beanpod.so
+vendor/lib/hw/gatekeeper.default.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib64/hw/gatekeeper.beanpod.so
+vendor/lib64/hw/gatekeeper.default.so
+

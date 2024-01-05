@@ -246,6 +246,11 @@ PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.config@1.0.vendor:64 \
     android.hardware.tetheroffload.control@1.1.vendor:64
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service
+
 # IMS
 PRODUCT_BOOT_JARS += \
     mediatek-common \
