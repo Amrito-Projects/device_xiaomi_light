@@ -465,3 +465,20 @@ vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
 vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod
+vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
+vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc
+vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
+vendor/lib/hw/kmsetkey.beanpod.so
+vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
+vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
+vendor/lib64/hw/kmsetkey.beanpod.so
+vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+vendor/lib64/libkeymaster4.so
+vendor/lib64/libkeymaster41.so
+vendor/lib64/libkeymaster4_1support.so
+vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
+vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
