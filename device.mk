@@ -13,7 +13,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/xiaomi
 
-
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
@@ -298,6 +297,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6.vendor \
     android.hardware.camera.provider@2.6.vendor
+
+# Runtime Resource (RRO) Overlays
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlayLight \
+    FrameworksResOverlayLight \
+    SystemUIOverlayLight \
+    TelephonyOverlayLight \
+    TetheringConfigOverlayLight \
+    WifiOverlayLight
 
 # Thermal
 PRODUCT_PACKAGES += \
