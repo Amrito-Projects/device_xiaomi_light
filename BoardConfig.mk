@@ -40,6 +40,7 @@ TARGET_NO_BOOTLOADER := true
 # Platform
 TARGET_BOARD_PLATFORM := mt6833
 BOARD_HAS_MTK_HARDWARE := true
+BOARD_VENDOR := xiaomi
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
@@ -90,6 +91,10 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/light
 
 # Display
 TARGET_SCREEN_DENSITY := 440
+
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.xiaomi
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
