@@ -2597,3 +2597,9 @@ vendor/firmware/focaltech_ts_fw_tianma.bin
 vendor/firmware/nt36672c_tm_01_ts_fw.bin
 vendor/firmware/nt36672c_tm_01_ts_mp.bin
 
+# Vibrator
+vendor/bin/hw/android.hardware.vibrator-service.mediatek
+vendor/lib/hw/vibrator.default.so
+vendor/lib64/hw/vibrator.default.so
+vendor/etc/init/vibrator-mtk-default.rc
+vendor/etc/vintf/manifest/vibrator-mtk-default.xml
