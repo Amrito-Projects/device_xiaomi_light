@@ -56,7 +56,8 @@ fi
 function blob_fixup {
     case "$1" in
         system/lib64/libsink.so)
-            "${PATCHELF}" --add-needed "libshim_sink.so" "$2"
+        grep -q "libshim_sink.so" "${2}" || \
+        "${PATCHELF}" --add-needed "libshim_sink.so" "${2}"
             ;;
     esac
 }
