@@ -8,6 +8,7 @@ DEVICE_PATH := device/xiaomi/light
 
 # Build Errors Fixer
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_DUP_RULES := true
 
 # Architecture
 TARGET_ARCH := arm64
