@@ -126,6 +126,9 @@ BOARD_AVB_VBMETA_VENDOR_ROLLBACK_INDEX_LOCATION := 3
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2023-09-01
+
 # WiFi
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 BOARD_HOSTAPD_DRIVER := NL80211
