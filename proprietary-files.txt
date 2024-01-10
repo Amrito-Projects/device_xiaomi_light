@@ -2638,3 +2638,10 @@ vendor/lib/hw/vibrator.default.so
 vendor/lib64/hw/vibrator.default.so
 vendor/etc/init/vibrator-mtk-default.rc
 vendor/etc/vintf/manifest/vibrator-mtk-default.xml
+
+# Hotword Enrollment
+-product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
+-product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk
+-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
+
