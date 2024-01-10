@@ -625,7 +625,48 @@ vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
 
-# IMS
+# Radio
+system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
+system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
+vendor/bin/hw/mtkfusionrild
+vendor/etc/init/mtkrild.rc
+vendor/lib/libmtkcutils.so
+vendor/lib/libmtkhardware_legacy.so
+vendor/lib/libmtkproperty.so
+vendor/lib/libmtkrillog.so
+vendor/lib/libsysenv.so
+vendor/lib64/libmtkconfig.so
+vendor/lib64/libmtkconfigutils.so
+vendor/lib64/libmtkcutils.so
+vendor/lib64/libmtkhardware_legacy.so
+vendor/lib64/libmtkproperty.so
+vendor/lib64/libmtkrillog.so
+vendor/lib64/libmtkrilutils.so
+vendor/lib64/libmtkutils.so
+vendor/lib64/libratconfig.so
+vendor/lib64/librilfusion.so
+vendor/lib64/libsysenv.so
+vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
+vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
+
+# Radio (IMS)
+system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
+vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.s
+vendor/bin/hw/vtservice_hidl
+vendor/bin/rcs_volte_stack
+vendor/etc/init/init.vtservice_hidl.rc
+vendor/etc/init/volte_clientapi_ua.rc
+vendor/etc/init/volte_rcs_ua.rc
+vendor/lib/libipsec_ims_shr.so
+vendor/lib64/libipsec_ims_shr.so
+vendor/lib/librcs_volte_core.so
+
+# Radio (MTK-IMS)
 bin/vtservice
 etc/init/init.vtservice.rc
 -framework/mediatek-common.jar
@@ -657,12 +698,6 @@ lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
 lib64/libvt_avsync.so
 -priv-app/ImsService/ImsService.apk
-system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-
-# Radio
-vendor/lib/libvsim.so
-
 
 # Firmware (Connectivity) - from a13xins-user 13 TP1A.220624.014 M136BXXU4CWE3 release-keys
 vendor/firmware/soc2_2_ram_bt_1a_1_hdr.bin|95ec2e59a13d8bcc8561adacfb3fb734b98d4d80
