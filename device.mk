@@ -65,6 +65,9 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     ueventd.mtk.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6833.rc
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
