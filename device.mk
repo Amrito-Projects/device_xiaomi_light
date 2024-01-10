@@ -67,6 +67,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.recovery.mt6833.rc
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi \
+    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -199,7 +204,6 @@ PRODUCT_PACKAGES += \
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
@@ -295,7 +299,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors-service.multihal.light \
     android.frameworks.sensorservice@1.0.vendor \
     libsensorndkbridge
-
 
 # Camera
 PRODUCT_PACKAGES += \
